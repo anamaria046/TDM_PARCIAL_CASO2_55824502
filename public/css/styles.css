@@ -1,0 +1,54 @@
+:root {
+  /* --- COLORES PRIMARIOS Y MARCA --- */
+  --color-primary-orange: #f27429;     /* Color de acento (Botones y círculo del avatar) */
+  --color-primary-orange-dark: #d95f18;/* Hover para botones */
+  --color-brand-black: #22252a;        /* Texto principal, títulos y "PABLOX" */
+  --color-text-body: #4a4d52;          /* Texto secundario y párrafos */
+  
+  /* --- COLORES DE TARJETAS / PROYECTOS --- */
+  --color-card-blue: #7199f8;          /* Fondo azul de tarjetas de proyectos */
+  --color-card-bg-gray: #e6e6e6;       /* Fondo gris claro detrás de proyectos */
+
+  /* --- FONDOS Y BORDES --- */
+  --color-bg-light: #ffffff;           /* Fondo principal de las diapositivas/tarjetas */
+  --color-border: #333333;             /* Líneas de subrayado decorativas */
+
+  /* --- TIPOGRAFÍA --- */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  --font-size-xs: 0.75rem;    /* 12px - Textos legales / footer */
+  --font-size-sm: 0.875rem;   /* 14px - Subtítulos / Párrafos descriptivos */
+  --font-size-md: 1rem;       /* 16px - Texto base / Botones */
+  --font-size-lg: 1.25rem;    /* 20px - Títulos de proyectos */
+  --font-size-xl: 1.75rem;    /* 28px - Títulos de sección (Sobre mí...) */
+  --font-size-xxl: 2.5rem;    /* 40px - Marca PABLOX y Portafolio */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* --- ESPACIADO Y BORDES --- */
+  --border-radius-card: 24px;   /* Redondeo de la vista principal */
+  --border-radius-button: 6px;  /* Redondeo de los botones */
+  --border-radius-item: 12px;    /* Redondeo de los contenedores de proyectos */
+
+  --spacing-xs: 0.25rem;  /* 4px */
+  --spacing-sm: 0.5rem;   /* 8px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+}
+
+/* --- ESTILOS BASE OPCIONALES --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+}
+
+body {
+  background-color: #1a1a1a; /* Fondo oscuro del canvas general */
+  color: var(--color-brand-black);
+}
